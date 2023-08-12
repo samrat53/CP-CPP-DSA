@@ -1,0 +1,14 @@
+learn stl
+luv stl
+prerequirements: lang basics
+13 jan contest codeforces
+
+1.vector
+2.pair
+3.map
+4.set
+
+
+1.vetctor
+how to initialise
+geekforgeeks

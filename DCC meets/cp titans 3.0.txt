@@ -1,0 +1,9 @@
+
+https://codeforces.com/contests/420972
+
+auto x
+iterator
+rbegin()
+rend()
+iterator arithmatic
+lower or upper bound function: use only when the elements are sorted
