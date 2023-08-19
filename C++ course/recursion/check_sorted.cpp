@@ -11,7 +11,7 @@ bool isSorted(vector<int>&vec,int length){
         return ans;
     }
     else return false;
-}   
+}
 int main(){
     int length; cin>>length;
     vector<int> vec;

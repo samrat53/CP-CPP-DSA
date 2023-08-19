@@ -10,7 +10,7 @@ int sumArray(int *arr,int length){
 
 int main(){
     int length; cin>>length;
-    int arr[length];
+    int *arr=new int[length];
     for(int i=0;i<length;i++)cin>>arr[i];
     cout<<sumArray(arr,length)<<endl;
 
