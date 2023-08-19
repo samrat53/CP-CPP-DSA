@@ -4,7 +4,7 @@ using namespace std;
 bool binarySearch(int *arr,int start, int end, int key){
     if(start>end) return false;
     int mid=(start+end)/2;
-    if (arr[mid]==key) return true;
+    if (arr[mid]==key) return true; //return mid; if we need the index of the key
     else if(key>arr[mid]) binarySearch(arr,mid+1,end,key);
     else if(key<arr[mid]) binarySearch(arr, start, mid-1,key);
 }
